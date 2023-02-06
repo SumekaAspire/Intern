@@ -1,0 +1,85 @@
+h1{
+    color: teal;
+}
+a[href="https://para.com"]
+{
+    color:brown;
+}
+a[href^="#"]
+{
+    color:aqua;
+}
+a[href$=".org"]
+{
+    color:tan;
+}
+a[href*="google"]
+{
+    color:tomato;
+}
+a[href*="CaSe" i]
+{
+    color:blueviolet;
+}
+
+a[href*="COCO" s]
+{
+    color:olive;
+}
+a[href^="https"][href$=".in"] {
+    color: teal;
+  }
+  
+
+img[class~=para]
+{
+    width:20px;
+    height:auto;
+}
+ol[type="A" s]
+{
+    background-color: red;
+    list-style-type: lower-alpha;
+}
+ol[type="B" s]
+{
+    background-color: green;
+    list-style-type: upper-alpha;
+}
+ol[type="B" s]
+{
+    background-color: yellow;
+    list-style-type: square;
+}
+ol[type="c" i]
+{
+    background-color: aqua;
+    list-style-type: upper-alpha;
+}
+   
+   
+  
+
+div[lang]{
+    font-weight:bold;
+    color:brown;
+}
+div:not[lang]{
+    font-style:italic;
+}
+div[lang~="en-us"]
+{
+    color:orange;
+}
+div[lang="pt"]
+{
+    color:palevioletred;
+}
+div[lang|="zh"]
+{
+    color:#098;
+}
+div[data-lang="zh-TW"]
+{
+    color:khaki;
+}

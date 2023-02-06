@@ -1,0 +1,31 @@
+li:first-of-type + li +li{
+    color: red;
+  }
+  
+h1+p{
+    color:aqua;
+}/*para comes immediately after h1*/
+
+span{
+    background-color:olivedrab;
+}
+div > span{
+    background-color:teal;
+}
+.para{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+h4{
+    text-decoration-line:underline overline;
+    text-decoration-color:teal;
+}
+h3{
+    text-decoration-line:overline;
+    text-decoration-color:orange;   
+}
+h2{
+    text-decoration-line:line-through;
+    text-decoration-color:aqua;
+}
