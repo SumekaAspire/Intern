@@ -9,7 +9,7 @@ a[href^="#"]
 {
     color:aqua;
 }
-a[href$=".org"]
+a[href$="g"]
 {
     color:tan;
 }
@@ -31,12 +31,12 @@ a[href^="https"][href$=".in"] {
   }
   
 
-img[class~=para]
+img[class~="para"]
 {
     width:20px;
     height:auto;
 }
-ol[type="A" s]
+ol[type="A" ]
 {
     background-color: red;
     list-style-type: lower-alpha;
@@ -64,7 +64,7 @@ div[lang]{
     font-weight:bold;
     color:brown;
 }
-div:not[lang]{
+div:not([lang]){
     font-style:italic;
 }
 div[lang~="en-us"]
