@@ -9,7 +9,7 @@ h1+p{
 span{
     background-color:olivedrab;
 }
-div > span{
+div > p{
     background-color:teal;
 }
 .para{

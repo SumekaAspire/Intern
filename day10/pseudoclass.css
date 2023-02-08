@@ -1,0 +1,18 @@
+a:link{
+    color:rebeccapurple;
+}
+a:visited{
+    color:pink;
+}
+a:hover{
+    color:olivedrab;
+}
+a:active{
+    color:salmon;
+}
+p:first-child{
+    color:orange;
+}
+p i:first-child {
+    color: #ff0000;
+   }

@@ -32,9 +32,9 @@ p5{
     writing-mode:vertical-lr;
 }
 p6{
-    block-size:15em;
+    block-size:auto;
     background-color:palevioletred;
-    writing-mode:horizontal-tb;
+    writing-mode:vertical-lr;
 }
 p7{
     block-size:150px;
@@ -43,7 +43,7 @@ p7{
 
 }
 p8{
-    block-size:auto;
+    block-size:120px;
     background-color:palevioletred;
     writing-mode:horizontal-tb;
 }
