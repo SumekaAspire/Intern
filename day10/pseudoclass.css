@@ -1,3 +1,6 @@
+p:first-child {
+    color:red;
+}
 a:link{
     color:rebeccapurple;
 }
@@ -10,9 +13,21 @@ a:hover{
 a:active{
     color:salmon;
 }
-p:first-child{
+a.para:hover{
+    font-size:20px;
+    color:sienna;
+}
+p:hover{
     color:orange;
 }
-p i:first-child {
-    color: #ff0000;
+p:last-child{
+    color:khaki;
+}
+p i:first-child{
+    color: blue;
    }
+li:nth-child(2)
+{
+    border:2px solid green;
+}
+
