@@ -1,0 +1,21 @@
+#a{
+    position:static;
+    background-color:aqua;
+}
+#b{
+    position:relative;
+    right:30px;
+    top:10px;
+    left:50px;
+    background-color:teal;
+}
+dt {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 1em 0;
+  }
+  

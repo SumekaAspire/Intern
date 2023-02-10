@@ -1,6 +1,61 @@
-@media (any-hover: hover) {
-    a:hover {
+.container{
+  display:flex;
+  background-color:tan;
+ 
+}
+
+
+/* @media (hover) {
+    p:hover {
       background: yellow;
     }
+  } */
+
+
+ /* @media (min-width:200px){
+  .p1{
+    background-color:brown;
   }
+ } */
+
+
+ /* @media (color){
+  .p2{
+    color:green;
+  }
+ } */
+
   
+ /* @media (max-width:300px) and (orientation:landscape)
+ {
+  .p2{
+    color:orangered;
+  }
+ } */
+
+ /* @media screen and (min-width:200px) and (orientation:landscape)
+ {
+  .p1{
+    color:orangered;
+  }
+ }
+ */
+
+ /* @media (width <= 400px)
+ {
+   .p2{
+    color:gold;
+   }
+ } */
+
+ /* @media print and (orientation:landscape){
+  .p1{
+    color:teal;
+  }
+ } */
+
+ @media only screen and (min-width:400px){
+  .p1{
+    color:salmon;
+  }
+ }
