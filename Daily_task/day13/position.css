@@ -1,0 +1,25 @@
+#a{
+    position:static;
+    background-color:aqua;
+}
+#b{
+    position:relative;
+    right:30px;
+    top:10px;
+    left:50px;
+    background-color:teal;
+}
+h3{
+    position:sticky;
+    top:50px;
+    border:2px solid green;
+    color:white;
+    background-color:bisque;
+}
+.para{
+    position:absolute;
+    bottom:10px;
+    left:20px;
+    color:olivedrab;
+    background-color:bisque;
+}

@@ -1,0 +1,42 @@
+#para{
+    column-count:3;
+}
+#pare{
+    
+    column-width:150px;
+}
+#par{
+    columns:4;
+    column-gap:2em;
+}
+#pa{
+    columns:15em;
+}
+#c{
+    columns:4 5em;
+}
+
+#a{
+    width: 250px;
+    margin-bottom: 5px;
+    border: 2px solid blue;
+    height:30px;
+}
+    
+#b{
+    height:75%;
+    width: 250px;
+    margin-bottom: 10px;
+    border: 2px solid blue;
+}
+#d{
+    height:auto;
+    width: 250px;
+    border: 2px solid blue;
+}
+#e{
+    height:10%;
+    width: 70%;
+    margin-bottom: 5px;
+    border: 2px solid blue;
+}
