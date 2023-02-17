@@ -79,4 +79,3 @@ console.log(len.length);
 console.log(len[0]);//first character
 // console.log(len[4]);
 console.log(len[len.length-1]);//last character
-
