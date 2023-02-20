@@ -19,11 +19,17 @@ console.log(myArray["length"]);
 
 // populating an array
 const emp=[];
+<<<<<<< HEAD
 // emp=["a"];//error - emp.push("a");
 emp[0]="A";
 emp[1]="B";
 emp[2]="C";
 console.log(emp);
+=======
+emp[0]="A";
+emp[1]="B";
+emp[2]="C";
+>>>>>>> 28e0b303ffeff0911fccccae1b0ecddd11031136
 
 //length
 const veg =[];

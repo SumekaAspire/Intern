@@ -49,7 +49,10 @@ console.log(`---------------------------`);
 // Extracting substring from a string
 const state = "enViRonMent";
 console.log(state.slice(1,4));
+<<<<<<< HEAD
 console.log(state.slice(-1,-4));
+=======
+>>>>>>> 28e0b303ffeff0911fccccae1b0ecddd11031136
 console.log(state.slice(-4,-1));
 console.log(state.slice(4));
 console.log(state.slice(-4));
@@ -60,6 +63,7 @@ console.log(state1.replace('give','Not'));//OUTPUT as in state1
 console.log(state1.replace('Give','$$$'));
 // console.log(state1.replaceAll('me','you'));
 
+<<<<<<< HEAD
  
 console.log(`:::${state1.repeat(3)}`);
  const inst ="The qelement In an striNg";
@@ -69,6 +73,11 @@ console.log(`:::${state1.repeat(3)}`);
 // console.log(inst.at(index));
 // index = -4;
 // console.log(inst.at(index));
+=======
+console.log(`:::${state1.repeat(3)}`);
+ const inst ="The qelement In an striNg";
+ const sentence="good morning";
+>>>>>>> 28e0b303ffeff0911fccccae1b0ecddd11031136
 console.log(inst.at(0));
 let index =5;
 console.log(inst.at(index));
@@ -81,7 +90,10 @@ console.log(inst.charCodeAt(4));//element code
 console.log(inst.concat(sentence));//concatenate
 console.log(inst.concat(' ',sentence));//concatenate
 
+<<<<<<< HEAD
 console.log(inst.lastIndexOf('n'));//consider at n
+=======
+>>>>>>> 28e0b303ffeff0911fccccae1b0ecddd11031136
 console.log(String.fromCharCode(189,43,190,61));
 console.log(String.fromCodePoint(9731, 9733, 9842, 0x2F804));
 const reg =/[A-Z]/g;//matching array of values
@@ -107,8 +119,18 @@ const name2 = '\u0041\u006d\u0065\u0301\u006c\u0069\u0065';
 console.log(`${name1}, ${name2}`);
 console.log(name1==name2);
 console.log(name1.length===name2.length);
+<<<<<<< HEAD
 console.log(name1.normalize());
 
+=======
+
+console.log(name1.normalize());
+
+//padEnd and padStart
+const str3 ="Thesun and the moon";
+console.log(str3.padEnd(18,'.'));
+console.log(str3.padEnd(5));
+>>>>>>> 28e0b303ffeff0911fccccae1b0ecddd11031136
 
 
 const str2 ="   Happy Morning   ";//trim
@@ -118,4 +140,8 @@ console.log(str2.trimStart());
 
 //file - raw
 const filePath = String.raw`C:\Development\profile\contact.html`;
+<<<<<<< HEAD
 console.log(`The file is uploaded from: ${filePath}`);
+=======
+console.log(`The file is uploaded from: ${filePath}`);
+>>>>>>> 28e0b303ffeff0911fccccae1b0ecddd11031136
