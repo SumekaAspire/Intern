@@ -83,6 +83,7 @@ console.log(`space :${get( )}`);//wrong
 const age = 26;
 const vote = age >= 18 ? "Can Vote" : "Cannot Vote";
 console.log(`Age ${age} - ${vote}`); 
+
 const greet = (people) => {
   const name = people ? people.name : "stranger";
   return `people - ${name}`;

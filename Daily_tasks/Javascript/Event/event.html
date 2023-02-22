@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="title" content="Javascript" />
+    <title>Event</title>
+    <!-- <script src="event.js" defer></script> -->
+</head>
+
+<body>
+  <h1>Event</h1>
+  <button>Click here</button>
+  <ul id="test">
+    <li>element</li>
+    <li>Element</li>
+    <li>ElEMenT</li>
+  </ul>
+
+  <script>
+
+    const btn = document.querySelector('button');
+
+    function random(number){
+     return Math.floor(Math.random() * (number + 1));
+    }
+    btn.addEventListener('click',() =>{
+     const color = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+     document.body.style.backgroundColor = color;})
+
+    const test = getElementById()
+
+  </script>
+</body>
+
+</html>
