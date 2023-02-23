@@ -2,33 +2,96 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="title" content="Javascript" />
-    <title>Event</title>
-    <!-- <script src="event.js" defer></script> -->
+  <meta charset="utf-8" />
+  <meta name="title" content="Javascript" />
+  <title>Event</title>
+  <!-- <script src="event.js" defer></script> -->
+  <style>
+    .tile {
+      height: 100px;
+      width: 22%;
+      float: left;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Event</h1>
   <button>Click here</button>
-  <ul id="test">
-    <li>element</li>
-    <li>Element</li>
-    <li>ElEMenT</li>
-  </ul>
+
+  <!--This is not recommended-->
+  <button onclick="alert('inline event handler');">alert</button>
+  <button id="btn">hello</button>
+  <p></p>
+  <input id="box" type="text">
+  <p id="p"></p>
+
+  <div id="container">
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+
+  </div>
+  <button id="po">hd</button>
+  <p id="op"></p>
 
   <script>
 
     const btn = document.querySelector('button');
 
-    function random(number){
-     return Math.floor(Math.random() * (number + 1));
+    function random(number) {
+      return Math.floor(Math.random() * (number + 1));
     }
-    btn.addEventListener('click',() =>{
-     const color = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
-     document.body.style.backgroundColor = color;})
+    btn.addEventListener('click', () => {
+      const color = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+      document.body.style.backgroundColor = color;
+    })
 
-    const test = getElementById()
+    const btnn = document.getElementById('btn');
+    const para = document.querySelector('p');
+
+    btnn.onclick = display;
+
+    function display() {
+      para.textContent = "Hi Sumeka, Welcome to my page";
+    }
+
+    const queen = document.querySelector("#po");
+    const king = document.querySelector("#op");
+
+    queen.onclick = does;
+    function does() {
+      king.textContent = "edbjhsbs";
+    }
+
+    //event objects
+    const box = document.querySelector("#box");
+    const out = document.querySelector("#p");
+
+    box.addEventListener('keydown', (event) => out.textContent = `You pressed "${event.key}"`);
+
+    //event delegation
+    const container = document.getElementById('container');
+
+    function random(num1) {
+      return Math.floor(Math.random() * num1)
+    }
+    function bgcolor() {
+      const b2color = `rgb(${random(255)},${random(255)},${random(255)})`;
+      return b2color;
+    }
+    container.addEventListener('click', (event) => {
+      event.target.style.background = bgcolor();
+    })
+
+
 
   </script>
 </body>
