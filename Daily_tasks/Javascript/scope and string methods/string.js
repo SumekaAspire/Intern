@@ -96,9 +96,6 @@ console.log(inst.lastIndexOf('n'));//consider at n
 >>>>>>> 28e0b303ffeff0911fccccae1b0ecddd11031136
 console.log(String.fromCharCode(189,43,190,61));
 console.log(String.fromCodePoint(9731, 9733, 9842, 0x2F804));
-const reg =/[A-Z]/g;//matching array of values
-console.log(inst.match(reg));
-console.log(`---------------------------`);
 
 const str = "The boy rides a bicycle in the evening.";
 const str1= str.split(' ');//split words
